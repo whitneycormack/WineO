@@ -1,0 +1,53 @@
+<ul class="collection">
+    <li class="collection-item avatar" ng-repeat="thing in items">
+      <img src="img/wine-icon small.png" alt="" class="circle">
+      <h3 class="title" ng-model="name">{{thing.Name}}</h3>
+      <p ng-model="vineyard">{{thing.Vineyard}}<br>
+          {{thing.Region}}, {{thing.Year}}<br>
+          {{thing.Varietal}}
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle">folder</i>
+      <span class="title">Title</span>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle green">insert_chart</i>
+      <span class="title">Title</span>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle red">play_arrow</i>
+      <span class="title">Title</span>
+      <p>First Line <br>
+         Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+  </ul>
+
+<!--  -->
+<!-- 
+<div ng-controller="wineLibraryCtrl">
+  <div class="col-xs-7"><a href="#/details/{{newWine.id}}">{{newWine.Name}}</a></div>
+  <div class="col-xs-3">{{newWine.Vineyard}}</div>
+  <div class="col-xs-3">{{newWine.Region}}</div>
+  <div class="col-xs-3">{{newWine.Varietal}}</div>
+  <div class="col-xs-3">{{newWine.Year}}</div>
+
+  <div class="col-xs-1"><button ng-click="delete(newWine.id)" class="btn btn-danger">X</button></div>
+</div>    --> 
+
+
+
+
+
+

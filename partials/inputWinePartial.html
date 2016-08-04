@@ -1,0 +1,29 @@
+<div class="row center">
+<h3 style="font-family:'Satisfy', cursive; font-weight: bold;">Input Your New Wine Below</h3>
+  <div class="row">
+    <form class="col s6 offset-s3">
+      <div class="input-field">
+        <input type="text" class="validate" ng-model="newWine.Name"/>
+        <label>Name</label>
+      </div>
+        <div class="input-field">
+          <input type="text" class="validate" ng-model="newWine.Vineyard"/>
+          <label>Vineyard</label>
+        </div>
+        <div class="input-field">
+          <input type="text" class="validate" ng-model="newWine.Region"/>
+          <label>Region</label>
+        </div>
+        <div class="input-field">
+          <input type="text" class="validate" ng-model="newWine.Varietal"/>
+          <label>Varietal</label>
+        </div>
+        <div class="input-field">
+          <input type="text" class="validate" ng-model="newWine.Year"/>
+          <label>Year</label>
+        </div>
+
+        <div class="row"><div class="center-align"><button class="btn waves-effect waves-light" ng-click="addNewWine()">Submit<i class="material-icons right">send</i></button></div></div>
+    </form>
+  </div>
+</div>

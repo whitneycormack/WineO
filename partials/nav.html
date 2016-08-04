@@ -1,0 +1,16 @@
+<nav ng-controller="navCtrl">
+  <div class="nav-wrapper red darken-3">
+          <a ng-href="#" class="brand-logo left" style="font-family:'Satisfy', cursive"> Vino Vita</a>
+
+        <ul id="nav-mobile" class="right">
+          <li>
+            <a ng-href="#/new">Add New Wine</a></li>
+          <li>
+            <a ng-href="#/library">My Library</a></li>
+          <li ng-show="userIsLoggedIn">
+            <a ng-href="#/logout">Logout</a></li>
+          <li>
+            <a ng-href="#/login">Login</a></li>
+        </ul>
+  </div>
+</nav>
